@@ -51,10 +51,10 @@ function loadPhotos(apiData) {
     apiData.forEach(item => {
         const cardBlock =     `<div>
                                 <img
-                                  src="${item.download_url}"
+                                  src="${'https://via.placeholder.com/150'}" 
                                   style="width: 150px; margin-right: 30px"
                                 />
-                                <p>${item.author}</p>
+                                <p>${'https://via.placeholder.com/600'}</p>
                               </div>`;
         cards += cardBlock;
     });
