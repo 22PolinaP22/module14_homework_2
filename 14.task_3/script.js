@@ -49,7 +49,7 @@ function loadPhotos(apiData) {
     apiData.forEach(item => {
         const cardBlock =     `<div>
                                 <img
-                                  src="${item.download_url}"
+                                  src="${"https://via.placeholder.com/150/92c952"}"
                                   style="width: 150px; margin-right: 30px"
                                 />
                                 <p>${item.author}</p>
