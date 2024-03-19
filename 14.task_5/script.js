@@ -51,10 +51,10 @@ function loadPhotos(apiData) {
     apiData.forEach(item => {
         const cardBlock =     `<div>
                                 <img
-                                  src="${'https://via.placeholder.com/150'}" 
+                                  src="${item.thumbnailUrl}" 
                                   style="width: 150px; margin-right: 30px"
                                 />
-                                <p>${'https://via.placeholder.com/600'}</p>
+                                <p>${item.title}</p>
                               </div>`;
         cards += cardBlock;
     });
